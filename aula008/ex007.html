@@ -13,15 +13,51 @@
 
 
 <script>
-    var n1 =1545.5
+    var n1 = 2;
+    n1 = n1 + 5; //Acumulador -- Da en total 7
 
-    n1.toFixed(2);
-   
-    n1.toLocaleString("es-mx", {style: 'currency', currency: 'BRL'})
+    var n3 = 2;
+    n3 += 5; //Acumulador -- por la posición da en total 7 -- ESTE ES EL IMPORTANTE Y EL MÁS USADO
+
+    var n2 = 2;
+    n2 =+ 5; //Acumulador -- por la posición da en total 5
+
+    
+
+
+    
+    window.alert(n1);
+    window.alert(n2);
+    window.alert(n3);
+
+
+    //----------------------------------INCREMENTO--------------------------
+
+    var x = 2;
+    
+    x++; //Para hacer el incremento. Da resultado 3
+
+    window.alert(x);
+
+    x--; //Para hacer el decremento. Da resultado 2
+
+    window.alert(x);
+
+
+    //----------------------------------PREINCREMENTO--------------------------
+
+    var y = 2;
+    
+    ++y; //Hace la suma antes de mostrarlo en pantalla. Da como resultado 3.
+
+    window.alert(y);
+    
+    --y; //Hace la resta antes de mostrarlo en pantalla. Da como resultado 2.
+
+    window.alert(y);
 
     /*
-        n.toFixed agrega 0 al decimal.
-        n.toLocaleString te permite agregar el formato de tu país ya sea el idioma, moneda, etc.
+
     */
 
 
