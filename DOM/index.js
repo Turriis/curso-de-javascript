@@ -47,4 +47,3 @@ nombre.style.fontSize = '8rem'  //Cambio el tamaño con DOM
 var d = window.document.querySelector('div#msg')    //Seleccione dentro del mismo parentesis el que yo quise
 
 d.style.fontSize = '8rem'   //Con DOM cambie el tamaño del ID
-    

@@ -1,0 +1,25 @@
+body{
+    background-color:blueviolet ;
+    color: white;
+    font: normal 18pt Arial;
+}
+
+div#area{
+    background: green;
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+
+}
+
+input {
+    font: normal 18pt Arial; /*Se puede editar con css los input.*/
+
+}
+
+div#res {
+    margin-top: 150px;
+
+}
